@@ -1,0 +1,239 @@
+$color_h1: hsl(210, 10%, 33%)
+$color_p: hsl(201, 11%, 66%)
+$color_g: hsl(171, 66%, 44%)
+$color_gc: #5dccbb
+$color_w: #fff
+$color_m: hsl(233, 100%, 69%)
+$color_mc: hsl(233, 100%, 80%)
+$color_footer: #f5f6f8
+
+.ctn
+    max-width: 1440px
+    margin: 0 auto
+    
+.ctn_header
+    background-image: url(../img/bg-header-desktop.png)
+    background-repeat: no-repeat
+    background-position: center
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center
+.img-logo
+    width: 250px
+    margin: 0 auto
+.img_logos
+    margin-top: 8%    
+img
+    display: block
+    margin: auto
+h1
+    font-family: 'Bai Jamjuree', sans-serif
+    color: $color_h1
+    text-align: center
+    font-size: 50px
+    font-weight: 600
+    padding-top: 5%
+h2
+    font-family: 'Bai Jamjuree', sans-serif
+    color: $color_h1
+    text-align: center
+    font-size: 40px
+    font-weight: 600
+    padding-top: 5%  
+h3
+    font-family: 'Bai Jamjuree', sans-serif
+    color: $color_h1
+    text-align: left
+    font-size: 25px
+    font-weight: 600
+    padding: 0% 21%   
+h4
+    font-family: 'Bai Jamjuree', sans-serif
+    color: $color_h1
+    text-align: center
+    font-size: 22px
+    font-weight: 600
+    padding: 0% 21% 
+.p1
+    font-family: 'Bai Jamjuree', sans-serif
+    text-align: center
+    color: $color_p
+    font-size: 23px
+    font-weight: 400
+    padding: 0% 21%
+    line-height: 40px 
+.p2
+    font-family: 'Bai Jamjuree', sans-serif
+    text-align: center
+    color: $color_p
+    font-size: 16px
+    font-weight: 400
+    padding: 0% 27%
+    line-height: 35px 
+.p3
+    font-family: 'Bai Jamjuree', sans-serif
+    text-align: left
+    color: $color_p
+    font-size: 18px
+    font-weight: 400
+    padding: 0% 20% 0% 21%
+    line-height: 36px  
+.p4
+    font-family: 'Bai Jamjuree', sans-serif
+    text-align: center
+    color: $color_p
+    font-size: 14px
+    font-weight: 400
+    padding: 0% 17%
+    line-height: 36px  
+a   
+    font-family: 'Bai Jamjuree', sans-serif 
+    color: $color_p
+    font-size: 18px
+    text-align: left
+    font-weight: 400
+    line-height: 35px
+    background-color: transparent
+    text-decoration: none
+    -webkit-box-sizing: border-box
+    box-sizing: border-box
+.grid 
+    display: grid
+    grid-template-columns: repeat(2, 1fr)
+.grid_img
+    display: grid
+    grid-template-columns: repeat(3, 1fr)  
+    padding: 0% 30%
+    width: 40%
+.grid_3 
+    display: grid
+    grid-template-columns: repeat(3, 1fr)  
+.grid_5 
+    display: grid
+    grid-template-columns: repeat(5, 1fr)        
+    column-gap: 10px
+    margin-top: 8%
+.btn_g 
+    font-family: 'Bai Jamjuree', sans-serif
+    font-size: 18px
+    border-radius: 35px
+    border: 2px solid $color_gc
+    color: $color_w
+    background-color: $color_g
+    max-height: 100%
+    width: 30%
+    padding: 1%
+    transition: 0.5s
+    margin: 5% 0% 0% 65%
+    padding: 2%
+    &:hover
+        -webkit-box-shadow: 0px 25px 49px -9px rgba(38,187,165,0.30)
+        -moz-box-shadow: 0px 25px 49px -9px rgba(38,187,165,0.30)
+        box-shadow: 0px 25px 49px -9px rgba(38,187,165,0.30)
+        background-color: $color_gc
+.btn_p 
+    font-family: 'Bai Jamjuree', sans-serif
+    font-size: 18px
+    border-radius: 35px
+    border: 2px solid $color_mc
+    color: $color_w
+    background-color: $color_m
+    max-height: 100%
+    width: 30%
+    padding: 1%
+    transition: 0.5s
+    margin: 5% 0% 0% 0%
+    padding: 2%
+    &:hover
+        -webkit-box-shadow: 0px 25px 49px -9px rgba(177,188,255, 0.30)
+        -moz-box-shadow: 0px 25px 49px -9px rgba(177,188,255,0.30)
+        box-shadow: 0px 25px 49px -9px rgba(177,188,255,0.30)
+        background-color: $color_mc        
+img
+    max-width: 100%
+    height: auto
+.img_pc
+    margin: 0% 0% 0% -10%
+.icon
+    max-width: 20%
+footer
+    background-color: $color_footer
+footer div
+    margin: 10% 0    
+@media only screen and (max-width: 520px) 
+    .ctn_header
+        background-image: url(../img/bg-header-mobile.png)
+        background-repeat: no-repeat
+        background-position: center
+        background-size: cover
+        background-repeat: no-repeat
+        background-position: center
+    h1 
+        font-family: 'Bai Jamjuree', sans-serif
+        color: #4c545d
+        text-align: center
+        font-size: 35px
+        font-weight: 600
+        padding-top: 15%
+    .p1 
+        font-family: 'Bai Jamjuree', sans-serif
+        text-align: center
+        color: #9fabb2
+        font-size: 15px
+        font-weight: 400
+        padding: 0% 6%
+        line-height: 25px
+    .grid 
+        display: grid
+        grid-template-columns: repeat(1, 1fr)
+    .btn_g 
+        max-height: 100%
+        width: 90%
+        margin: 0 auto
+        padding: 4%
+        margin-top: 5%
+    .btn_p 
+        max-height: 100%
+        width: 90%
+        margin: 0 auto
+        padding: 4%
+        margin-top: 5%    
+    h2
+        font-size: 25px
+        padding: 6%
+    .p2
+        padding: 0% 6%
+        line-height: 25px
+        font-size: 15px
+    .img_pc
+        margin: 0 auto
+    img
+        max-width: 88%
+    h3
+        text-align: center
+        padding: 0% 10%
+    .p3
+        text-align: center
+        font-size: 16px
+        padding: 0% 4% 
+        margin-bottom: 10%
+        line-height: 27px               
+    .grid_3 
+        display: grid
+        grid-template-columns: repeat(1, 1fr)  
+    .p4
+        padding: 0% 8%
+        line-height: 25px
+    .grid_5 
+        display: grid
+        text-align: center
+        grid-template-columns: repeat(1, 1fr)        
+        column-gap: 10px
+        margin-top: 8%    
+    .img_logos
+        margin-top: 20%
+    footer div
+        margin: 5% 0   
+    .txt
+        margin: 0% 5%
+  
